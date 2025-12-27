@@ -48,7 +48,7 @@ def push_plus(token, title, content):
         "title": title,
         "content": content,
         "template": "html",
-        "channel": "webhook"
+        "channel": "webhook",
         "option":"dingding"
     }
     try:
