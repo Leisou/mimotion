@@ -48,8 +48,8 @@ def push_plus(token, title, content):
         "title": title,
         "content": content,
         "template": "html",
-        "channel": "webhook"
-        "option":"dingding" #webhook编码用于消息发送接口中的“option”参数
+        "channel": "webhook",
+        "option":"dingding"
     }
     try:
         response = requests.post(requestUrl, data=data)
