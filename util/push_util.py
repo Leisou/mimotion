@@ -49,7 +49,7 @@ def push_plus(token, title, content):
         "content": content,
         "template": "html",
         "channel": "webhook"
-        "option":dingding"自己定义的编码" #webhook编码用于消息发送接口中的“option”参数
+        "option":"dingding" #webhook编码用于消息发送接口中的“option”参数
     }
     try:
         response = requests.post(requestUrl, data=data)
